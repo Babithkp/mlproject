@@ -3,3 +3,4 @@ venv
 *.log
 logs
 artifacts
+catboost_info
