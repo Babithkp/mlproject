@@ -48,6 +48,8 @@ class ModelTrainer:
                 "Catboosting": CatBoostRegressor(),
                 "AdaBoost Regression": AdaBoostRegressor(),
             }
+            
+            
 
             model_report: dict = evaluate_model(
                 X_train=X_train,
